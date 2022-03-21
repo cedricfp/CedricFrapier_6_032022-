@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --inspect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedricfp/CedricFrapier_6_032022-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cedricfp/CedricFrapier_6_032022-/issues"
+  },
+  "homepage": "https://github.com/cedricfp/CedricFrapier_6_032022-#readme"
+}
