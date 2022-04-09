@@ -5,7 +5,7 @@ const User = require("../models/user");
 
 //Middleware de création d'utilisateur
 exports.signup = (req, res, next) => {
-  //cryptage du mdp avec hash 10 tours
+  //cryptage du mdp avec itération hash 10 tours
   bcrypt
     .hash(req.body.password, 10)
     .then((hash) => {
